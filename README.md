@@ -45,3 +45,82 @@ git clone https://github.com/rohan-rusho/bookcircle-platform.git
 cd bookcircle-platform
 npm install        # or yarn install
 npm run dev        # or yarn dev
+bookcircle-platform/
+├── app/               # Pages and routes
+│   ├── auth/          # Login, Register
+│   ├── feed/          # Public news feed
+│   ├── explore/       # Search and filter UI
+│   ├── dashboard/     # User control panel
+│   ├── add-book/      # Upload book form
+│   └── layout.tsx     # Main layout
+├── components/        
+│   ├── ui/            # shadcn/ui elements
+│   ├── book-card.tsx  # Book previews
+│   ├── navigation.tsx # Navbar + sidebar
+│   └── request-dialog.tsx # Modal for requests
+├── lib/               # State, helpers
+│   └── store.ts       # Zustand store
+└── public/            # Static files (book covers, logo)
+
+
+🤝 Contributing
+👣 Steps:
+
+Fork the repo
+
+Create a new branch (feature/add-chat-function)
+
+Make your changes and commit
+
+Push the branch and create a pull request
+
+📌 Guidelines:
+
+Follow code style and folder structure
+
+Add documentation or tests where needed
+
+Ensure mobile/responsive compatibility
+
+Check cross-browser behavior
+
+🐛 Bug Reports & Features
+Please open a GitHub issue for:
+
+Bugs (with steps to reproduce)
+
+Feature suggestions
+
+Screenshots, console logs, and browser info help a lot!
+
+📜 License
+Licensed under the MIT License.
+See the LICENSE file for full terms.
+
+🌟 Acknowledgments
+shadcn/ui – elegant UI components
+
+Lucide – beautifully simple icons
+
+Next.js – amazing React framework
+
+Tailwind CSS – utility-first styling
+
+Vercel – for deployment and previews
+
+To the global book-loving community 📚💙
+
+🌎 Connect with the Developer
+📛 Md. Rohan Islam
+🎓 Final-year CSE student at BUBT
+💼 Executive member, BUBIT Club | Media Team, IEEE BUBT Student Branch
+📸 Top 10 Photographer – BUBT Photography Club
+
+📧 Email: rohanislamofficial@gmail.com
+🔗 Portfolio: rohann-portfolio.netlify.app
+🐙 GitHub: github.com/rohan-rusho
+📱 Facebook: facebook.com/rohanislamofficial
+🌐 Cloud App: fcloud.netlify.app
+
+Made with ❤️ for the community.
+“A book shared is knowledge multiplied.” 📚✨
