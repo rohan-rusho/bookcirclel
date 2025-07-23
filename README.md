@@ -62,7 +62,7 @@ bookcircle-platform/
 │   └── store.ts       # Zustand store
 └── public/            # Static files (book covers, logo)
 
-
+```
 🤝 Contributing
 👣 Steps:
 
